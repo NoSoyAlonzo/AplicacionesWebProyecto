@@ -1,7 +1,22 @@
 body {
-    background-image: url('imagenes/fondoPrincipal.jpg');
+    background-image: url('imagenes/backG.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
+.encabezado{
+
+    text-align: center;
+    padding-bottom: 50px;    
+}
+
+.PanelPrincipal{
+
+    position: relative;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    text-align: center;
+    z-index: 1;
+
+
+}
