@@ -1,42 +1,39 @@
 body {
-    background-image: url('imagenes/backG.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.encabezado{
-
+.container {
+    background-color: #009fe3;
+    width: 80%;
+    padding: 20px;
     text-align: center;
-    padding-bottom: 50px;    
-}
-
-.PanelPrincipal{
-
     position: relative;
-    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+}
+
+h1 {
+    color: white;
+}
+
+.box {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    border: 5px solid black;
     text-align: center;
-    z-index: 1;
-
-
-}
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px; /* bordes  */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombra imagen */
+    line-height: 100px;
+    font-weight: bold;
+    background-color: #009fe3;
+    color: black;
+    margin: 20px;
 }
 
-h2 {
-    color: #ffffff; /* Color blanco para que destaque sobre el fondo oscuro */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra de texto para mejorar la legibilidad */
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
-    padding: 10px;
-    border-radius: 8px; /* Bordes redondeados */
-    margin: 20px 0;
-}
-
-section img {
-    display: block;
-    margin: 0 auto; 
+.logo {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 100px;
 }
