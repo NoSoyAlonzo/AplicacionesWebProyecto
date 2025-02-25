@@ -20,3 +20,23 @@ body {
 
 
 }
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* bordes  */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombra imagen */
+}
+
+h2 {
+    color: #ffffff; /* Color blanco para que destaque sobre el fondo oscuro */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra de texto para mejorar la legibilidad */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    padding: 10px;
+    border-radius: 8px; /* Bordes redondeados */
+    margin: 20px 0;
+}
+
+section img {
+    display: block;
+    margin: 0 auto; 
+}
