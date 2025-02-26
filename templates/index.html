@@ -8,12 +8,60 @@
 </head>
 
 <body>
+    <header>
+        <img src="../static/imagenes/ITSON-MARCA.png" alt="logo">
+</header>
+<section class="hero-section">
+    <div class="wrap-hero-section">
+        <h1>Landing Page ESports Potros</h1>
+        <p>Bienvenido, en la siguiente paginas podras obtener imformacion sobre
+        las actividades que realizan nuestros competidores de ESports de itson.
+        </p>
+    </div>
+</section>
+<section class="imagen">
     <div class="container">
         <h1>POTROS ESPORTS</h1>
-        <div class="box">"Equipo valorant"</div>
-        <div class="box">"equipo lol"</div>
-        <img src="/static/imagenes/POTROSimago_azul.png" alt="Potros Logo" class="logo">
+        <a href="valorant.html">
+        <img src="../static/imagenes/equipoValorant.jpeg" class="box" alt="Equipo valorant">
+        </a>
+        <p class="des"> Valorant</p>
+        <a href="lol.html">
+            <img src="../static/imagenes/equipoLol.jpg" class="box" alt="Equipo Lol">
+            </a>
+            <p class="des">LOL</p>
+        <img src="../static/imagenes/POTROSimago_azul.png" alt="Potros Logo" class="logo">
+        
     </div>
+    </div>
+    <section class="contact">
+        <h2>Contacto</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p class="des">Integrantes equipo web:</p>
+        <ul>
+            <li><b>Kimberli Martinez 244802</b></li>
+            <li><b>Alonso Garcia 000000</b></li>
+            <li><b>David Campa 000000</b></li>
+            
+        </ul>
+        <img src="../static/imagenes/POTROSimago_positivo.png" alt="Logo de la Institución">
+    </footer>
+  
+  
+
 
 </body>
 

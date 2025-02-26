@@ -1,21 +1,56 @@
-body {
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+
+
+html *{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #0697d6;
+    padding: 25px;
+    text-align: center;
 }
 
+header img {
+    max-width: 100px;
+}
 .container {
     background-color: #009fe3;
-    width: 80%;
+    width: 100%;
     padding: 20px;
     text-align: center;
     position: relative;
+    box-sizing: border-box; 
+
+}
+
+.imagen .container a img {
+    max-width: 200px;
+    transition: transform 0.3s ease;
+}
+
+.imagen .container a img:hover {
+    transform: scale(1.1);
 }
 
 h1 {
     color: white;
+}
+
+.hero-section{
+    height: 90vh;
+    background:url(../static/imagenes/backG.png);
+    background-position: center;
+    background-size:cover ;
+    background-color: #009fe3;
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+    
+}
+.wrap-hero-section{
+  max-width: 600px;
+  color: #fff;
+  padding: 15%;  
 }
 
 .box {
@@ -31,9 +66,69 @@ h1 {
     margin: 20px;
 }
 
+.des{
+    font-size: 22px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+    color: #f1eff5; 
+    font-weight: bold;
+    margin-top: -20px;
+    text-align: center;
+}
+
 .logo {
     position: absolute;
     bottom: 10px;
     left: 10px;
     width: 100px;
+}
+
+.contact {
+    padding: 20px;
+    text-align: center;
+    background: #0697d6;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact label {
+    text-align: left;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.contact button:hover {
+    background-color: #2f4e87;
+}
+
+footer {
+    background-color: #005fe3;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+footer img {
+    max-width: 100px;
+    margin-top: 10px;
 }
