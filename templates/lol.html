@@ -17,26 +17,57 @@
 
     <main>
         
-        <section class="LeagueOfLegendsExplicacion">
-            <h2>League of Legends</h2>
-            <p>League of Legends es un juego de estrategia en tiempo real en el que dos equipos de cinco jugadores compiten por destruir la base del equipo contrario. Cada jugador controla un personaje, llamado campeón, con habilidades únicas y juega un rol específico en el equipo. Los jugadores deben trabajar juntos para derrotar a los campeones enemigos y destruir sus torres y estructuras para llegar a la base enemiga y destruirla. El juego es muy popular en todo el mundo y cuenta con una gran comunidad de jugadores y fans.</p>
-        </section>
+        <div class="contenedor">
+            <section class="LeagueOfLegendsExplicacion">
+                <h2>League of Legends</h2>
+                <p>League of Legends es un juego de estrategia en tiempo real en el que dos equipos de cinco jugadores compiten por destruir la base del equipo contrario. Cada jugador controla un personaje, llamado campeón, con habilidades únicas y juega un rol específico en el equipo. Los jugadores deben trabajar juntos para derrotar a los campeones enemigos y destruir sus torres y estructuras para llegar a la base enemiga y destruirla. El juego es muy popular en todo el mundo y cuenta con una gran comunidad de jugadores y fans.</p>
+            </section>
 
-        <section>
-            <h2><strong>Equipo:</strong></h2>
-            <img rel="src" src="../static/imagenes/equipoLol.jpg" alt="Equipo lol" class="EquipoLol">
-        </section>
+            <section class="Equipo">
+                <h2><strong>Equipo:</strong></h2>
+                <img rel="src" src="../static/imagenes/equipoLol.jpg" alt="Equipo lol" class="EquipoLol">
+            </section>
 
 
-        <section class="Torneos jugados">
-            <h2>Torneos jugados</h2>
-            <p><strong>Torneos a los que el equipo de league of legends ha asistido: </strong></p>
-            <ul>
-                <li>Universiada 2024</li>
-                <li>Telcel University</li>
-            </ul>
-        </section>
+            <section class="Torneosjugados">
+                <h2>Torneos jugados</h2>
+                <p><strong>Torneos a los que el equipo de league of legends ha asistido: </strong></p>
+                <ul>
+                    <li>Universiada 2024</li>
+                    <li>Telcel University</li>
+                </ul>
+            </section>
 
+            <section class="FormularioJugador">
+                <h2>¿Quieres ser parte del equipo?</h2>
+                <form>
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+    
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="matricula">Matricula alumno:</label>
+                    <input type="number" id="matricula" name="matricula" required>
+                    
+                    <label for="Elo">Elo:</label>
+                    <input type="text" id="elo" name="elo" required>
+
+                    <label for="rol">Rol en el Juego:</label>
+                    <select id="rol" name="rol" required>
+                        <option value="Top">Top</option>
+                        <option value="Jungla">Jungla</option>
+                        <option value="Mid">Mid</option>
+                        <option value="ADC">ADC</option>
+                        <option value="Soporte">Soporte</option>
+                    </select>
+    
+                    <button type="submit">Enviar Solicitud</button>
+                </form>
+            </section>
+
+
+        </div>
 
 
     </main>
