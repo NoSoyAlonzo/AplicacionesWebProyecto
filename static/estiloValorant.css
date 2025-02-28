@@ -15,11 +15,13 @@ header {
     color: white;
     padding: 10px 0;
     width: 100%;
+    list-style-type: none;
+
   }
 
 .BarraNav{
 
-    
+    list-style-type: none;
     background-color: rgb(86, 179, 179);
     position: fixed;
     top: 0;
@@ -56,20 +58,34 @@ header {
 
     margin-right:20px;
 }
+.listaNav {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
 .itemNav a{
     color: rgb(65, 147, 182);
     text-decoration: none;
     font-size: 18px;
     padding: 10px 15px;
     transition: background-color 0.3s ease;
+    text-decoration: none;
+    float: left;
 }
 .itemNav a:hover{
     background-color: #333;
     border-radius: 10px;
-
+    
 }
 
 .panelSlider{
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -89,5 +105,7 @@ header {
     width: 100%;
     height: 50vh;
     object-fit: cover;
+    justify-content: center;
+    align-items: center;
     scroll-snap-align: center;
 }
