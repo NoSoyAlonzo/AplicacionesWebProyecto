@@ -37,7 +37,7 @@ header {
     padding: 40px;
     background-color: #009fe3;
     width: 1760px;
-    height: 2000px;
+    height: 1200;
     padding: 20px;
     justify-content: center;
     text-align: center;
@@ -67,7 +67,7 @@ header {
     justify-content: space-around;
 }
 .itemNav a{
-    color: rgb(65, 147, 182);
+    color: rgb(230, 234, 235);
     text-decoration: none;
     font-size: 18px;
     padding: 10px 15px;
@@ -76,7 +76,7 @@ header {
     float: left;
 }
 .itemNav a:hover{
-    background-color: #333;
+    background-color:#009fe3 ;
     border-radius: 10px;
     
 }
