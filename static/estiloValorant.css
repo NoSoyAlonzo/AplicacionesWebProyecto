@@ -8,32 +8,9 @@ body{
     position: relative;
     margin: 0;
     font-family: Arial, sans-serif;
-}
-
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    width: 100%;
-    list-style-type: none;
-
-  }
-
-.BarraNav{
-
-    list-style-type: none;
-    background-color: rgb(86, 179, 179);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #333;
-    padding: 15px 0;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
-}
-
-.contedorPrincipal{
+}   
+   
+    .contedorPrincipal{
     padding: 40px;
     background-color: #009fe3;
     width: 1760px;
@@ -42,29 +19,39 @@ header {
     justify-content: center;
     text-align: center;
     position: relative;
-    margin-top: 150px;
+    margin-top: 30px;
     border-radius: 20px;
+    
+} 
+
+.BarraNav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #397acf;
+    padding: 10px 20px;
+    border-radius: 25px;
+    opacity: 0.8;
 }
-
-.listaNav{
-
+.BarraNav ul{
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: center;
 }
-
-.itemNav{
-
-    margin-right:20px;
+.BarraNav ul li{
+    justify-content: center;
+    margin-right: 20px;
 }
-.listaNav {
+.BarraNav ul li a{
+    color: rgb(231, 231, 231);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logoI{
 
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
+    height: 100px;
+    width: 200px;
 }
 .itemNav a{
     color: rgb(230, 234, 235);
@@ -108,4 +95,50 @@ header {
     justify-content: center;
     align-items: center;
     scroll-snap-align: center;
+}
+.formulario{
+
+    align-items: center;
+    justify-content: center;
+}
+.formularioContenedor {
+    
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+.formularioContenedor h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.formularioContenedor label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.formularioContenedor input[type="text"],
+.formularioContenedor select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.formularioContenedor input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.formularioContenedor [type="submit"]:hover {
+    background-color: #218838;
 }
