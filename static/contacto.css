@@ -1,0 +1,139 @@
+body{
+    background-image: url("../static/imagenesContacto/itsonBackground.jpg");
+}
+header{
+    background-color: #00FF0000;
+    padding: 10px 15px;
+}
+
+.contedorPrincipal{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    opacity: 0.8;
+    background-color: #009fe3;
+    width: 1760px;
+    height: 1200px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+    margin:0;
+    border-radius: 20px;
+    left: 5%;
+    right: 10%;
+    z-index: 999;
+    }
+ 
+.BarraNav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #397acf;
+    padding: 10px 20px;
+    border-radius: 25px;
+    opacity: 0.8;
+}
+
+.BarraNav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.BarraNav ul li{
+    justify-content: center;
+    margin-right: 20px;
+}
+.BarraNav ul li a{
+    color: rgb(231, 231, 231);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.panelImg{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    overflow-x:auto;
+}
+.panelImg img{
+
+    flex: 1 1 200px;
+    max-width: 100%;
+    width:400px;
+    height:300px;
+    border-radius: 8px;
+    box-shadow: 0 4px  8px  rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .panelImg {
+        flex-wrap: wrap; 
+        justify-content: center; 
+    }
+    .panelImg img {
+        flex: 1 1 150px; 
+    }
+}
+
+.logoI{
+
+    height: 100px;
+    width: 200px;
+}
+
+.contenedorform{
+    background-color: aliceblue;
+    display: grid;
+    align-items: baseline;
+
+}
+.seccionImg h1{
+    color: aliceblue;
+    font-style: italic;
+    font-size: x-large;
+
+}
+.seccionImg p{
+
+    font-style: italic;
+    color: aliceblue
+}
+.sectionForm{
+
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formularioContacto input[type="text"]{
+         
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.formularioContacto input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.formularioContacto label{
+
+    font-style: italic;
+}

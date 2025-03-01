@@ -20,6 +20,35 @@ header {
     z-index: 1000;
 }
 
+.BarraNav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #397acf;
+    padding: 10px 20px;
+    border-radius: 25px;
+    opacity: 0.8;
+}
+.BarraNav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.BarraNav ul li{
+    justify-content: center;
+    margin-right: 20px;
+}
+.BarraNav ul li a{
+    color: rgb(231, 231, 231);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logoI{
+
+    height: 100px;
+    width: 200px;
+}
 .contenedor{ 
     display: flex;
     flex-direction: column;
